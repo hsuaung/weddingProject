@@ -3,11 +3,16 @@
 
     // Navbar on scrolling
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
+        if ($(this).scrollTop() > 2000) {
             $('.navbar').fadeIn('slow').css('display', 'flex');
         } else {
             $('.navbar').fadeOut('slow').css('display', 'none');
         }
+    });
+
+    $('#bannerCarousel').carousel({
+        interval: 5000, // Set to 2 seconds (2000ms)
+        ride: 'carousel'
     });
 
 
