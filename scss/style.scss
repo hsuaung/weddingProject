@@ -334,6 +334,7 @@ $border-width: 2px;
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    display: none;
 }
 
 .gallery-carousel .owl-nav .owl-prev,
@@ -346,6 +347,7 @@ $border-width: 2px;
     color: $primary;
     background: $light;
     font-size: 30px;
+   
 }
 
 @media (max-width: 767.98px) {
@@ -353,3 +355,4 @@ $border-width: 2px;
         border-right: none !important;
     }
 }
+
